@@ -3,5 +3,6 @@ neocomplcache
 neosnippet
 neosnippet-snippets
 unite.vim
+vim-fugitive
 vim-quickrun
 vim-snippets

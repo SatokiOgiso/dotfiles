@@ -25,6 +25,7 @@ NeoBundle 'honza/vim-snippets'
 " NeoBundle 'scrooloose/syntastic'
 " NeoBundle 'https://bitbucket.org/kovisoft/slimv'
 NeoBundle 'thinca/vim-quickrun'
+NeoBundle 'tpope/vim-fugitive'
 
 filetype indent on
 syntax on
