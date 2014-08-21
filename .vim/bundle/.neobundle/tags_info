@@ -1,2 +1,7 @@
 neobundle.vim
+neocomplcache
+neosnippet
+neosnippet-snippets
 unite.vim
+vim-quickrun
+vim-snippets

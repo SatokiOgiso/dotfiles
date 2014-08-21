@@ -1,8 +1,8 @@
 set number
 set autoindent
 set list
-syntax on
 
+colorscheme industry
 set nocompatible               " be iMproved
 filetype off
 
@@ -17,15 +17,35 @@ NeoBundle 'Shougo/neobundle.vim'
 " NeoBundle 'VimClojure'
 " NeoBundle 'Shougo/vimshell'
 NeoBundle 'Shougo/unite.vim'
-" NeoBundle 'Shougo/neocomplcache'
-" NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'honza/vim-snippets'
 " NeoBundle 'jpalardy/vim-slime'
 " NeoBundle 'scrooloose/syntastic'
 " NeoBundle 'https://bitbucket.org/kovisoft/slimv'
+NeoBundle 'thinca/vim-quickrun'
 
-filetype plugin indent on     " required!
 filetype indent on
 syntax on
+
+""""""""""""""""""""""""""""""
+" neocomplcacheÇÃê›íË
+""""""""""""""""""""""""""""""
+let g:neocomplcache_enable_at_startup = 1
+
+""""""""""""""""""""""""""""""
+" neosnippetÇÃê›íË
+""""""""""""""""""""""""""""""
+let g:neosnippet#snippets_directory='~/.vim/bundle/vim-snippets/snippets'
+
+
+""""""""""""""""""""""""""""""
+" vim-quickrunÇÃê›íË
+""""""""""""""""""""""""""""""
+let g:quickrun_config={'_': {'split': 'vertical'}}
+set splitright
+set splitbelow
 
 """"""""""""""""""""""""""""""
 " Unit.vimÇÃê›íË
